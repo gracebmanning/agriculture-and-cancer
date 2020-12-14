@@ -44,6 +44,21 @@ header {
     text-decoration: none;
 }
 
+a.my-link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.article-link {
+    color: black;
+    text-decoration: none;
+}
+
+a.article-link:hover {
+    color: var(--cobalt);
+    font-weight: bold;
+}
+
 .nav-bar {
     display: flex;
     justify-content: space-around;
@@ -57,10 +72,12 @@ header {
     color: black;
 }
 
-a:hover {
+a.nav-item:hover {
     color: white;
-    font-size: 1.02em;
+    font-weight: bold;
 }
+
+
 
 .main-div {
     display: flex;
@@ -89,4 +106,16 @@ a:hover {
     margin-right: 10px;
     
     padding: 10px;
+}
+
+.quote-block {
+    margin-left: 50px;
+    padding: 10px;
+    border-color: gray;
+    border-left: 2px solid;
+}
+
+.references-div {
+    display: flex;
+    justify-content: space-between;
 }
