@@ -50,12 +50,12 @@ a.my-link:hover {
 }
 
 .article-link {
-    color: black;
+    color: var(--cobalt);
     text-decoration: none;
 }
 
 a.article-link:hover {
-    color: var(--cobalt);
+    color: var(--mint);
     font-weight: bold;
 }
 
@@ -96,7 +96,7 @@ a.nav-item:hover {
 }
 
 .page-section {
-    height: 600px;
+    height: 100%;
     background-color: white;
     border-radius: 10px;
     
